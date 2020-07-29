@@ -21,6 +21,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.sknk.loveCalculator",
+      "versionCode": 1
     }
   }
 }
