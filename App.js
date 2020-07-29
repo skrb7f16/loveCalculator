@@ -15,7 +15,7 @@ class App extends React.Component {
     fetch(`https://love-calculator.p.rapidapi.com/getPercentage?fname=${this.state.You}&sname=${this.state.crush}`, {
       headers: {
         "x-rapidapi-host": "love-calculator.p.rapidapi.com",
-        "x-rapidapi-key": "f986d898e8mshf870453b8c75fa9p1618f2jsn35e6fde6d020"
+        "x-rapidapi-key": "your key"
       }
     })
       .then(data => data.json())
